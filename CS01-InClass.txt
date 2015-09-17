@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	    <title>Web Technologies - Fall 2015</title>
+        
+    </head>
+
+    <body>
+        <h1>All About Katherine</h1>
+	<p>I chose Babson because I knew I wanted to go to school for Business and with 
+Babson's reputation, I knew it was a good choice. I also wanted a relatively small school 
+because I came from a small high school and didn't want to be overwhelmed.
+   
+    
+    </body>
+</html>
