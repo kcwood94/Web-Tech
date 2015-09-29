@@ -1,0 +1,12 @@
+﻿table {width: 500px; margin-left: auto; margin-right: auto; font-family: arial;
+	color: white;}
+tr, td {border: 1px solid white; padding: 3px; vertical-align: top;}
+img {width:100%}
+td.image {width:70%;}
+td#last {width:30%;}
+td.thirtyfive {width:35%;}
+body {background-image: url(images/leaves.gif);}
+p.scroll {Background-color: lime; Width: 250px; height: 300px;
+	overflow: scroll; padding-right: 10px; padding-left: 10px;
+	margin-left: auto; margin-right: auto;}
+p#link {color:white;}
