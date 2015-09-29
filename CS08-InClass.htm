@@ -5,10 +5,13 @@
 	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
 	    <title>CS08-InClass</title>
         <style type="text/css">
-        h1 {text-align: center; color: navy;}
-        form {background-color: gray; color: navy;
-            font-family: arial; font-weight: bold;}
-        p {text-indent: 20px;}
+        h1 {text-align: center; color: navy; font-family: Lucida Bright;}
+        form {background-color: silver; color: navy;
+            font-family: arial; font-weight: bold; margin-top: 50px;
+            margin-bottom: 50px; margin-left: 100px; margin-right :100px;
+            padding-top: 20px; padding-bottom: 20px; padding-left: 100px;
+            padding-right: 50px;}
+        p {margin: 20px;}
         
         
         
@@ -19,8 +22,8 @@
 
     <body>
 <h1>Web Forms - CS08 - InClass</h1>
-<form method="post" action=mailto:kwood1@babson.edu enctype="text/plain">
-<br><br><p>Last Name:
+<form method="post" action="mailer.php">
+<br><p>Last Name:
     <input type="text" name="lname" maxlength="100" size="20" value=" "/> 
     First Name:
     <input type="text" name="fname" maxlength="100" size="20" value=" "/>
@@ -35,8 +38,24 @@
     <input type="checkbox" name="Q1" value="Tables" />Tables<br>
     <input type="checkbox" name="Q1" value="FORMS" />FORMS<br>
 </p>
-<p> <input type="submit" value="Submit" name="Submit" />
-    <input type="reset" value="Reset" name="Reset" />
+<p>What grade do you expect to receive? 
+    <select name="grade">
+            <option value="A">A</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B">B</option>
+            <option value="B-">B-</option>
+            <option value="C+">C+</option>
+</select></p>
+<p> Please add any comments you have.</p>
+    <p><textarea name="comments" rows="5" cols="35"> </textarea>
+</p>
+<p> <button type="submit" value="Submit" name="Submit">
+    SUBMIT <img src="images/mailbox.png" height="30" alt="submit_button"/>
+    </button>
+    <button type="reset" value="Reset" name="Reset">
+    CLEAR <img src="images/reset.png" height="30" alt="reset_button"/>
+    </button>
 </p><br>
 
 </form>  <br> 
